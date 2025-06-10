@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d87e7d60-7499-47b5-9d28-e39067733d6d" name="Changes" comment="faire un histplot des penguins de seaborn">
-      <change afterPath="$PROJECT_DIR$/analyze_movie/data/raw/titanic.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/analyze_movie/notebook/titanic.ipynb" afterDir="false" />
+    <list default="true" id="d87e7d60-7499-47b5-9d28-e39067733d6d" name="Changes" comment="titanic.csv and .head() and histplot">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analyze_movie/notebook/02_analyze_movies_genre.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/analyze_movie/notebook/02_analyze_movies_genre.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +85,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1749543858472</updated>
-      <workItem from="1749547038019" duration="12907000" />
+      <workItem from="1749547038019" duration="15031000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -288,7 +287,39 @@
       <option name="project" value="LOCAL" />
       <updated>1749561578638</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="import titanic data .csv et new jupyter note to visualize a heatmap">
+      <option name="closed" value="true" />
+      <created>1749564401650</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1749564401650</updated>
+    </task>
+    <task id="LOCAL-00027" summary="import movie_genre_stats.csv et new jupyter note to visualize a heatmap">
+      <option name="closed" value="true" />
+      <created>1749564522158</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1749564522158</updated>
+    </task>
+    <task id="LOCAL-00028" summary="movie_genre_stats.csv and .head()">
+      <option name="closed" value="true" />
+      <created>1749564589869</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1749564589869</updated>
+    </task>
+    <task id="LOCAL-00029" summary="titanic.csv and .head() and histplot">
+      <option name="closed" value="true" />
+      <created>1749564789412</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1749564789412</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -306,10 +337,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="first commit" />
-    <MESSAGE value="first jupyter notebook" />
-    <MESSAGE value="import numpy to manipulate tables" />
-    <MESSAGE value="add a 2D array with numpy" />
     <MESSAGE value="récupérer les données des colonnes et des lignes" />
     <MESSAGE value="récupérer la durée la plus longue d'un array 2D avec data mixte PENSESR AU .astype(int) sinon il ne saura pas faire" />
     <MESSAGE value="récupérer la durée la plus longue d'un array 2D avec data mixte PENSER AU .astype(int) sinon il ne saura pas faire, il faut des int64 que numpy utilise" />
@@ -331,6 +358,10 @@
     <MESSAGE value="faire une heatmap avec les datas imdb, uniquement avec les valeurs numériques, et il le fait tout seul" />
     <MESSAGE value="prendre un dataset issue de seaborn directement pour faire des tests" />
     <MESSAGE value="faire un histplot des penguins de seaborn" />
-    <option name="LAST_COMMIT_MESSAGE" value="faire un histplot des penguins de seaborn" />
+    <MESSAGE value="import titanic data .csv et new jupyter note to visualize a heatmap" />
+    <MESSAGE value="import movie_genre_stats.csv et new jupyter note to visualize a heatmap" />
+    <MESSAGE value="movie_genre_stats.csv and .head()" />
+    <MESSAGE value="titanic.csv and .head() and histplot" />
+    <option name="LAST_COMMIT_MESSAGE" value="titanic.csv and .head() and histplot" />
   </component>
 </project>
