@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d87e7d60-7499-47b5-9d28-e39067733d6d" name="Changes" comment="faire une heatmap avec les datas imdb, uniquement avec les valeurs numériques, et il le fait tout seul" />
+    <list default="true" id="d87e7d60-7499-47b5-9d28-e39067733d6d" name="Changes" comment="faire un histplot des penguins de seaborn">
+      <change afterPath="$PROJECT_DIR$/analyze_movie/data/raw/titanic.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/analyze_movie/notebook/titanic.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,7 +86,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1749543858472</updated>
-      <workItem from="1749547038019" duration="11228000" />
+      <workItem from="1749547038019" duration="12907000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -268,7 +272,23 @@
       <option name="project" value="LOCAL" />
       <updated>1749561336341</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="prendre un dataset issue de seaborn directement pour faire des tests">
+      <option name="closed" value="true" />
+      <created>1749561458507</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1749561458507</updated>
+    </task>
+    <task id="LOCAL-00025" summary="faire un histplot des penguins de seaborn">
+      <option name="closed" value="true" />
+      <created>1749561578638</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1749561578638</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -309,6 +329,8 @@
     <MESSAGE value="importer un .csv de IMDB" />
     <MESSAGE value="faire une heatmap avec les datas imdb" />
     <MESSAGE value="faire une heatmap avec les datas imdb, uniquement avec les valeurs numériques, et il le fait tout seul" />
-    <option name="LAST_COMMIT_MESSAGE" value="faire une heatmap avec les datas imdb, uniquement avec les valeurs numériques, et il le fait tout seul" />
+    <MESSAGE value="prendre un dataset issue de seaborn directement pour faire des tests" />
+    <MESSAGE value="faire un histplot des penguins de seaborn" />
+    <option name="LAST_COMMIT_MESSAGE" value="faire un histplot des penguins de seaborn" />
   </component>
 </project>
