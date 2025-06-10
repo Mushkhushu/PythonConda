@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d87e7d60-7499-47b5-9d28-e39067733d6d" name="Changes" comment="import numpy to manipulate tables">
-      <change afterPath="$PROJECT_DIR$/analyze_movie/notebook/01_analyze_2D.ipynb" afterDir="false" />
+    <list default="true" id="d87e7d60-7499-47b5-9d28-e39067733d6d" name="Changes" comment="récupérer les données des colonnes et des lignes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analyze_movie/notebook/01_analyze.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/analyze_movie/notebook/01_analyze.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analyze_movie/notebook/01_analyze_2D.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/analyze_movie/notebook/01_analyze_2D.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +83,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1749543858472</updated>
-      <workItem from="1749547038019" duration="1160000" />
+      <workItem from="1749547038019" duration="3179000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -110,7 +109,23 @@
       <option name="project" value="LOCAL" />
       <updated>1749547869852</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add a 2D array with numpy">
+      <option name="closed" value="true" />
+      <created>1749548389302</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1749548389302</updated>
+    </task>
+    <task id="LOCAL-00005" summary="récupérer les données des colonnes et des lignes">
+      <option name="closed" value="true" />
+      <created>1749548745265</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1749548745265</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,6 +146,8 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="first jupyter notebook" />
     <MESSAGE value="import numpy to manipulate tables" />
-    <option name="LAST_COMMIT_MESSAGE" value="import numpy to manipulate tables" />
+    <MESSAGE value="add a 2D array with numpy" />
+    <MESSAGE value="récupérer les données des colonnes et des lignes" />
+    <option name="LAST_COMMIT_MESSAGE" value="récupérer les données des colonnes et des lignes" />
   </component>
 </project>
