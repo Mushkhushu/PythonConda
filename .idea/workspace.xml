@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d87e7d60-7499-47b5-9d28-e39067733d6d" name="Changes" comment="importer un .csv de IMDB">
-      <change beforePath="$PROJECT_DIR$/analyze_movie/notebook/02_load_panda_movie.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/analyze_movie/notebook/02_load_panda_movie.ipynb" afterDir="false" />
-    </list>
+    <list default="true" id="d87e7d60-7499-47b5-9d28-e39067733d6d" name="Changes" comment="faire une heatmap avec les datas imdb, uniquement avec les valeurs numériques, et il le fait tout seul" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -84,7 +82,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1749543858472</updated>
-      <workItem from="1749547038019" duration="10846000" />
+      <workItem from="1749547038019" duration="11228000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -254,7 +252,23 @@
       <option name="project" value="LOCAL" />
       <updated>1749560577397</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="faire une heatmap avec les datas imdb">
+      <option name="closed" value="true" />
+      <created>1749561022770</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1749561022770</updated>
+    </task>
+    <task id="LOCAL-00023" summary="faire une heatmap avec les datas imdb, uniquement avec les valeurs numériques, et il le fait tout seul">
+      <option name="closed" value="true" />
+      <created>1749561336341</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1749561336341</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -293,6 +307,8 @@
     <MESSAGE value="faire un pairplot" />
     <MESSAGE value="faire un barplot" />
     <MESSAGE value="importer un .csv de IMDB" />
-    <option name="LAST_COMMIT_MESSAGE" value="importer un .csv de IMDB" />
+    <MESSAGE value="faire une heatmap avec les datas imdb" />
+    <MESSAGE value="faire une heatmap avec les datas imdb, uniquement avec les valeurs numériques, et il le fait tout seul" />
+    <option name="LAST_COMMIT_MESSAGE" value="faire une heatmap avec les datas imdb, uniquement avec les valeurs numériques, et il le fait tout seul" />
   </component>
 </project>
