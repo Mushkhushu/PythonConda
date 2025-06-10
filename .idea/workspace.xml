@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d87e7d60-7499-47b5-9d28-e39067733d6d" name="Changes" comment="plus explicite">
+    <list default="true" id="d87e7d60-7499-47b5-9d28-e39067733d6d" name="Changes" comment="ajouter des années de sortie des films sur le .csv et importer matplotlib pour visualiser les duration et year">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analyze_movie/data/movies.csv" beforeDir="false" afterPath="$PROJECT_DIR$/analyze_movie/data/movies.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/analyze_movie/notebook/02_load_panda_movie.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/analyze_movie/notebook/02_load_panda_movie.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +82,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1749543858472</updated>
-      <workItem from="1749547038019" duration="8190000" />
+      <workItem from="1749547038019" duration="8512000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -173,7 +172,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749557590153</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="ajouter des années de sortie des films sur le .csv et importer matplotlib pour visualiser les duration et year">
+      <option name="closed" value="true" />
+      <created>1749558374967</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1749558374967</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,6 +209,7 @@
     <MESSAGE value="importer pandas et importer un.csv de films" />
     <MESSAGE value="commentaires sur pandas avec .info() et .describe()" />
     <MESSAGE value="plus explicite" />
-    <option name="LAST_COMMIT_MESSAGE" value="plus explicite" />
+    <MESSAGE value="ajouter des années de sortie des films sur le .csv et importer matplotlib pour visualiser les duration et year" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajouter des années de sortie des films sur le .csv et importer matplotlib pour visualiser les duration et year" />
   </component>
 </project>
