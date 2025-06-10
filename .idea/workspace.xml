@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d87e7d60-7499-47b5-9d28-e39067733d6d" name="Changes" comment="titanic.csv and .head() and histplot">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="d87e7d60-7499-47b5-9d28-e39067733d6d" name="Changes" comment="movie_genre_stats.csv et compter combien de films sortis par genre de films (unique) ? TD&#10;avec loc de pandas pour regrouper des colums selon une condition&#10;afficher avec un sns.barplot aggrandi avec figsize">
       <change beforePath="$PROJECT_DIR$/analyze_movie/notebook/02_analyze_movies_genre.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/analyze_movie/notebook/02_analyze_movies_genre.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,7 +84,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1749543858472</updated>
-      <workItem from="1749547038019" duration="15031000" />
+      <workItem from="1749547038019" duration="15532000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -319,7 +318,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749564789412</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="movie_genre_stats.csv et compter combien de films sortis par genre de films (unique) ? TD&#10;avec loc de pandas pour regrouper des colums selon une condition&#10;afficher avec un sns.barplot aggrandi avec figsize">
+      <option name="closed" value="true" />
+      <created>1749566899870</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1749566899870</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -337,7 +344,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="récupérer les données des colonnes et des lignes" />
     <MESSAGE value="récupérer la durée la plus longue d'un array 2D avec data mixte PENSESR AU .astype(int) sinon il ne saura pas faire" />
     <MESSAGE value="récupérer la durée la plus longue d'un array 2D avec data mixte PENSER AU .astype(int) sinon il ne saura pas faire, il faut des int64 que numpy utilise" />
     <MESSAGE value="lisibilité explicite" />
@@ -362,6 +368,7 @@
     <MESSAGE value="import movie_genre_stats.csv et new jupyter note to visualize a heatmap" />
     <MESSAGE value="movie_genre_stats.csv and .head()" />
     <MESSAGE value="titanic.csv and .head() and histplot" />
-    <option name="LAST_COMMIT_MESSAGE" value="titanic.csv and .head() and histplot" />
+    <MESSAGE value="movie_genre_stats.csv et compter combien de films sortis par genre de films (unique) ? TD&#10;avec loc de pandas pour regrouper des colums selon une condition&#10;afficher avec un sns.barplot aggrandi avec figsize" />
+    <option name="LAST_COMMIT_MESSAGE" value="movie_genre_stats.csv et compter combien de films sortis par genre de films (unique) ? TD&#10;avec loc de pandas pour regrouper des colums selon une condition&#10;afficher avec un sns.barplot aggrandi avec figsize" />
   </component>
 </project>
