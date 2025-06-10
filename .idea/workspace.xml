@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d87e7d60-7499-47b5-9d28-e39067733d6d" name="Changes" comment="récupérer les données des colonnes et des lignes">
+    <list default="true" id="d87e7d60-7499-47b5-9d28-e39067733d6d" name="Changes" comment="récupérer la durée la plus longue d'un array 2D avec data mixte PENSESR AU .astype(int) sinon il ne saura pas faire">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/analyze_movie/notebook/01_analyze_2D.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/analyze_movie/notebook/01_analyze_2D.ipynb" afterDir="false" />
     </list>
@@ -83,7 +83,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1749543858472</updated>
-      <workItem from="1749547038019" duration="3179000" />
+      <workItem from="1749547038019" duration="3635000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -125,7 +125,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749548745265</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="récupérer la durée la plus longue d'un array 2D avec data mixte PENSESR AU .astype(int) sinon il ne saura pas faire">
+      <option name="closed" value="true" />
+      <created>1749550336365</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1749550336365</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,6 +156,7 @@
     <MESSAGE value="import numpy to manipulate tables" />
     <MESSAGE value="add a 2D array with numpy" />
     <MESSAGE value="récupérer les données des colonnes et des lignes" />
-    <option name="LAST_COMMIT_MESSAGE" value="récupérer les données des colonnes et des lignes" />
+    <MESSAGE value="récupérer la durée la plus longue d'un array 2D avec data mixte PENSESR AU .astype(int) sinon il ne saura pas faire" />
+    <option name="LAST_COMMIT_MESSAGE" value="récupérer la durée la plus longue d'un array 2D avec data mixte PENSESR AU .astype(int) sinon il ne saura pas faire" />
   </component>
 </project>
