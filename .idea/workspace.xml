@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d87e7d60-7499-47b5-9d28-e39067733d6d" name="Changes" comment="importer un .csv avec un séparateur en point-virgule et utilisation du param delimiter dans .read_csv()">
+    <list default="true" id="d87e7d60-7499-47b5-9d28-e39067733d6d" name="Changes" comment="importer seaborn, faire le meme graphique scatterplot avec moins de codes">
       <change beforePath="$PROJECT_DIR$/analyze_movie/notebook/02_load_panda_movie.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/analyze_movie/notebook/02_load_panda_movie.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,7 +84,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1749543858472</updated>
-      <workItem from="1749547038019" duration="9774000" />
+      <workItem from="1749547038019" duration="9961000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -214,7 +214,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749559635991</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="importer seaborn, faire le meme graphique scatterplot avec moins de codes">
+      <option name="closed" value="true" />
+      <created>1749559959681</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1749559959681</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -248,6 +256,7 @@
     <MESSAGE value="màj relative path following raw data folder" />
     <MESSAGE value="1 seule visualisation par cellule" />
     <MESSAGE value="importer un .csv avec un séparateur en point-virgule et utilisation du param delimiter dans .read_csv()" />
-    <option name="LAST_COMMIT_MESSAGE" value="importer un .csv avec un séparateur en point-virgule et utilisation du param delimiter dans .read_csv()" />
+    <MESSAGE value="importer seaborn, faire le meme graphique scatterplot avec moins de codes" />
+    <option name="LAST_COMMIT_MESSAGE" value="importer seaborn, faire le meme graphique scatterplot avec moins de codes" />
   </component>
 </project>
