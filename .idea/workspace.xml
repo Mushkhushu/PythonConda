@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d87e7d60-7499-47b5-9d28-e39067733d6d" name="Changes" comment="récupérer la durée la plus longue d'un array 2D avec data mixte PENSER AU .astype(int) sinon il ne saura pas faire, il faut des int64 que numpy utilise">
-      <change afterPath="$PROJECT_DIR$/analyze_movie/notebook/02_load_panda_movie.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="d87e7d60-7499-47b5-9d28-e39067733d6d" name="Changes" comment="importer pandas et importer un.csv de films">
+      <change beforePath="$PROJECT_DIR$/analyze_movie/notebook/02_load_panda_movie.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/analyze_movie/notebook/02_load_panda_movie.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +81,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1749543858472</updated>
-      <workItem from="1749547038019" duration="7103000" />
+      <workItem from="1749547038019" duration="7229000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -148,7 +147,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749550974240</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="importer pandas et importer un.csv de films">
+      <option name="closed" value="true" />
+      <created>1749557259538</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1749557259538</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,6 +181,7 @@
     <MESSAGE value="récupérer la durée la plus longue d'un array 2D avec data mixte PENSESR AU .astype(int) sinon il ne saura pas faire" />
     <MESSAGE value="récupérer la durée la plus longue d'un array 2D avec data mixte PENSER AU .astype(int) sinon il ne saura pas faire, il faut des int64 que numpy utilise" />
     <MESSAGE value="lisibilité explicite" />
-    <option name="LAST_COMMIT_MESSAGE" value="lisibilité explicite" />
+    <MESSAGE value="importer pandas et importer un.csv de films" />
+    <option name="LAST_COMMIT_MESSAGE" value="importer pandas et importer un.csv de films" />
   </component>
 </project>
