@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d87e7d60-7499-47b5-9d28-e39067733d6d" name="Changes" comment="rangement en sous dossiers selon les projets">
-      <change afterPath="$PROJECT_DIR$/analyze_movie/notebook/04-predict.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/analyze_movie/src/graph_utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="d87e7d60-7499-47b5-9d28-e39067733d6d" name="Changes" comment="- reprendre les infos imdb&#10;- se baser sur les genres de films et les tickets vendus pour savoir si ça va etre un succès&#10;- Modifier les colonnnes textuels en index pour pouvoir les utiliser (avec OneHotEncoder, ColumnTransformer et Pipeline)&#10;- faire une methode de visualization display_predict_diff_errors() dans un file graph_utils.py à part dans un dossier src&#10;- l'importer dans notre notebook&#10;- enregistrer l'image graph produite&#10;- afficher le mse" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -95,6 +91,7 @@
       <workItem from="1749547038019" duration="16005000" />
       <workItem from="1749625769986" duration="19300000" />
       <workItem from="1749651754340" duration="452000" />
+      <workItem from="1749652214894" duration="325000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -432,7 +429,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749645217186</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="- reprendre les infos imdb&#10;- se baser sur les genres de films et les tickets vendus pour savoir si ça va etre un succès&#10;- Modifier les colonnnes textuels en index pour pouvoir les utiliser (avec OneHotEncoder, ColumnTransformer et Pipeline)&#10;- faire une methode de visualization display_predict_diff_errors() dans un file graph_utils.py à part dans un dossier src&#10;- l'importer dans notre notebook&#10;- enregistrer l'image graph produite&#10;- afficher le mse">
+      <option name="closed" value="true" />
+      <created>1749652470649</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1749652470649</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -450,7 +455,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="amélioration" />
     <MESSAGE value="faire un pairplot" />
     <MESSAGE value="faire un barplot" />
     <MESSAGE value="importer un .csv de IMDB" />
@@ -475,6 +479,7 @@
     <MESSAGE value="prediction-notes-avec-forest.ipynb : afficher un graphe d'écart entre les données réelles et les prédictions" />
     <MESSAGE value="predict-bac_4_ele_test.ipynb : les datas de plein d'élèves d'Isaac pour afficher un graphe d'écart entre les données réelles et les prédictions cohérent" />
     <MESSAGE value="rangement en sous dossiers selon les projets" />
-    <option name="LAST_COMMIT_MESSAGE" value="rangement en sous dossiers selon les projets" />
+    <MESSAGE value="- reprendre les infos imdb&#10;- se baser sur les genres de films et les tickets vendus pour savoir si ça va etre un succès&#10;- Modifier les colonnnes textuels en index pour pouvoir les utiliser (avec OneHotEncoder, ColumnTransformer et Pipeline)&#10;- faire une methode de visualization display_predict_diff_errors() dans un file graph_utils.py à part dans un dossier src&#10;- l'importer dans notre notebook&#10;- enregistrer l'image graph produite&#10;- afficher le mse" />
+    <option name="LAST_COMMIT_MESSAGE" value="- reprendre les infos imdb&#10;- se baser sur les genres de films et les tickets vendus pour savoir si ça va etre un succès&#10;- Modifier les colonnnes textuels en index pour pouvoir les utiliser (avec OneHotEncoder, ColumnTransformer et Pipeline)&#10;- faire une methode de visualization display_predict_diff_errors() dans un file graph_utils.py à part dans un dossier src&#10;- l'importer dans notre notebook&#10;- enregistrer l'image graph produite&#10;- afficher le mse" />
   </component>
 </project>
