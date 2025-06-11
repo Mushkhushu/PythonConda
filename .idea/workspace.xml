@@ -4,17 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d87e7d60-7499-47b5-9d28-e39067733d6d" name="Changes" comment="predict-bac_4_ele_test.ipynb : les datas de plein d'élèves d'Isaac pour afficher un graphe d'écart entre les données réelles et les prédictions cohérent">
-      <change beforePath="$PROJECT_DIR$/analyze_movie/data/raw/titanic.csv" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/data/raw/titanic.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analyze_movie/models/model_predic_bac_4_eleves_forest.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/ecole_notes/models/model_predic_bac_4_eleves_forest.pkl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analyze_movie/models/model_predict_bac.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/ecole_notes/models/model_predict_bac.pkl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analyze_movie/models/model_predict_bac_random_forest.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/ecole_notes/models/model_predict_bac_random_forest.pkl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analyze_movie/notebook scikit/predict-bac.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ecole_notes/notebook/predict-bac.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analyze_movie/notebook scikit/predict-bac_4_ele_test.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ecole_notes/notebook/predict-bac_4_ele_test.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analyze_movie/notebook scikit/prediction-notes-avec-forest.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ecole_notes/notebook/prediction-notes-avec-forest.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analyze_movie/notebook scikit/prediction-notes.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ecole_notes/notebook/prediction-notes.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analyze_movie/notebook scikit/use-custom-model.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ecole_notes/notebook/use-custom-model.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analyze_movie/notebook/titanic.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/notebook/titanic.ipynb" afterDir="false" />
+    <list default="true" id="d87e7d60-7499-47b5-9d28-e39067733d6d" name="Changes" comment="rangement en sous dossiers selon les projets">
+      <change afterPath="$PROJECT_DIR$/analyze_movie/notebook/04-predict.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/analyze_movie/src/graph_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Jupyter Notebook" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -37,12 +31,12 @@
     &quot;assignee&quot;: &quot;Mushkhushu&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Mushkhushu/PythonConda.git",
-    "accountId": "92334d6a-8496-4a81-8b92-ea2c07e1ea81"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Mushkhushu/PythonConda.git&quot;,
+    &quot;accountId&quot;: &quot;92334d6a-8496-4a81-8b92-ea2c07e1ea81&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -76,11 +70,11 @@
       <recent name="D:\PythonIASpace\PythonConda\analyze_movie\notebook" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\PythonIASpace\PythonConda\analyze_movie" />
       <recent name="D:\PythonIASpace\PythonConda\titanic\data\raw" />
       <recent name="D:\PythonIASpace\PythonConda\titanic\notebook" />
       <recent name="D:\PythonIASpace\PythonConda\titanic\data" />
       <recent name="D:\PythonIASpace\PythonConda\ecole_notes\notebook" />
-      <recent name="D:\PythonIASpace\PythonConda\ecole_notes\models" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -99,7 +93,8 @@
       <option name="presentableId" value="Default" />
       <updated>1749543858472</updated>
       <workItem from="1749547038019" duration="16005000" />
-      <workItem from="1749625769986" duration="14046000" />
+      <workItem from="1749625769986" duration="19300000" />
+      <workItem from="1749651754340" duration="452000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -429,7 +424,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749645023588</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="rangement en sous dossiers selon les projets">
+      <option name="closed" value="true" />
+      <created>1749645217186</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1749645217186</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -447,7 +450,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="importer seaborn, faire le meme graphique scatterplot avec moins de codes" />
     <MESSAGE value="amélioration" />
     <MESSAGE value="faire un pairplot" />
     <MESSAGE value="faire un barplot" />
@@ -472,6 +474,7 @@
     <MESSAGE value="prediction-notes-avec-forest.ipynb : exercice d'entrainement d'un modèle RandomForestRegression pour prédire des notes au bac selon les notes de l'année :&#10;— avec jeux de données&#10;— préparation des données avec train_test_split&#10;— entrainement du modèle avec model.predict() &#10;— vérification du mse avec mean_squared_error()&#10;— exporter le modèle en pickle (.pkl) en créant une file contenant le modèle en binaire&#10;— création d'un nouveau notebook use-custom-model.ipynb pour charger notre modèle custom model_predict_bac_random_forest.pkl ainsi créé et l'exécuter&#10;&#10;Conclusion: RandomForestRegression trouve les bonnes notes donc est beaucoup plus adapté mais le mse n'est pas cohérent car dataset trop pauvre, pas assez d'élèves et de notes" />
     <MESSAGE value="prediction-notes-avec-forest.ipynb : afficher un graphe d'écart entre les données réelles et les prédictions" />
     <MESSAGE value="predict-bac_4_ele_test.ipynb : les datas de plein d'élèves d'Isaac pour afficher un graphe d'écart entre les données réelles et les prédictions cohérent" />
-    <option name="LAST_COMMIT_MESSAGE" value="predict-bac_4_ele_test.ipynb : les datas de plein d'élèves d'Isaac pour afficher un graphe d'écart entre les données réelles et les prédictions cohérent" />
+    <MESSAGE value="rangement en sous dossiers selon les projets" />
+    <option name="LAST_COMMIT_MESSAGE" value="rangement en sous dossiers selon les projets" />
   </component>
 </project>
