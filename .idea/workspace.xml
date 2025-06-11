@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d87e7d60-7499-47b5-9d28-e39067733d6d" name="Changes" comment="movie_genre_stats.csv et compter combien de places vendues par genre de films">
-      <change beforePath="$PROJECT_DIR$/.idea/PythonConda.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PythonConda.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="d87e7d60-7499-47b5-9d28-e39067733d6d" name="Changes" comment="jour 2">
+      <change afterPath="$PROJECT_DIR$/analyze_movie/notebook/ex-group-aggre.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,12 +29,12 @@
     &quot;assignee&quot;: &quot;Mushkhushu&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Mushkhushu/PythonConda.git&quot;,
-    &quot;accountId&quot;: &quot;c410f055-d864-4cc8-8084-1cfaf5ef91aa&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Mushkhushu/PythonConda.git",
+    "accountId": "92334d6a-8496-4a81-8b92-ea2c07e1ea81"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -75,7 +74,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-dfff61a61320-9cdd278e9d02-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-251.25410.159" />
+        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-PY-251.25410.159" />
+        <option value="bundled-python-sdk-e0ed3721d81e-36ea0e71a18c-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.25410.159" />
       </set>
     </attachedChunks>
   </component>
@@ -87,6 +87,7 @@
       <option name="presentableId" value="Default" />
       <updated>1749543858472</updated>
       <workItem from="1749547038019" duration="16005000" />
+      <workItem from="1749625769986" duration="1352000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -336,7 +337,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749567043682</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="jour 2">
+      <option name="closed" value="true" />
+      <created>1749625854269</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1749625854269</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -354,7 +363,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="récupérer la durée la plus longue d'un array 2D avec data mixte PENSER AU .astype(int) sinon il ne saura pas faire, il faut des int64 que numpy utilise" />
     <MESSAGE value="lisibilité explicite" />
     <MESSAGE value="importer pandas et importer un.csv de films" />
     <MESSAGE value="commentaires sur pandas avec .info() et .describe()" />
@@ -379,6 +387,7 @@
     <MESSAGE value="titanic.csv and .head() and histplot" />
     <MESSAGE value="movie_genre_stats.csv et compter combien de films sortis par genre de films (unique) ? TD&#10;avec loc de pandas pour regrouper des colums selon une condition&#10;afficher avec un sns.barplot aggrandi avec figsize" />
     <MESSAGE value="movie_genre_stats.csv et compter combien de places vendues par genre de films" />
-    <option name="LAST_COMMIT_MESSAGE" value="movie_genre_stats.csv et compter combien de places vendues par genre de films" />
+    <MESSAGE value="jour 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="jour 2" />
   </component>
 </project>
