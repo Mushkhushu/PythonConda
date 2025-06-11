@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d87e7d60-7499-47b5-9d28-e39067733d6d" name="Changes" comment="exercice de faire le mse (mean square error) à la main -- explicit2">
-      <change afterPath="$PROJECT_DIR$/analyze_movie/notebook scikit/predict-bac.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/analyze_movie/notebook scikit/use-custom-model.ipynb" afterDir="false" />
+    <list default="true" id="d87e7d60-7499-47b5-9d28-e39067733d6d" name="Changes" comment="predict-bac.ipynb : exercice d'entrainement d'un modèle linearRegression pour prédire des notes au bac selon les notes de l'année :&#10;— avec jeux de données&#10;— préparation des données avec train_test_split&#10;— entrainement du modèle avec model.predict() &#10;— vérification du mse avec mean_squared_error()&#10;— exporter le modèle en pickle (.pkl) en créant une file contenant le modèle en binaire&#10;— création d'un nouveau notebook use-custom-model.ipynb pour charger notre modèle custom model_predict_bac.pkl ainsi créé et l'exécuter&#10;+ lisibilité dans prediction-notes.ipynb&#10;Conclusion: linearRegression n'est pas du tout adapté à ce que l'on veut faire">
+      <change afterPath="$PROJECT_DIR$/analyze_movie/notebook scikit/prediction-notes-avec-forest.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analyze_movie/notebook scikit/prediction-notes.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/analyze_movie/notebook scikit/prediction-notes.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +87,7 @@
       <option name="presentableId" value="Default" />
       <updated>1749543858472</updated>
       <workItem from="1749547038019" duration="16005000" />
-      <workItem from="1749625769986" duration="9697000" />
+      <workItem from="1749625769986" duration="12423000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -387,7 +385,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749632504584</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="predict-bac.ipynb : exercice d'entrainement d'un modèle linearRegression pour prédire des notes au bac selon les notes de l'année :&#10;— avec jeux de données&#10;— préparation des données avec train_test_split&#10;— entrainement du modèle avec model.predict() &#10;— vérification du mse avec mean_squared_error()&#10;— exporter le modèle en pickle (.pkl) en créant une file contenant le modèle en binaire&#10;— création d'un nouveau notebook use-custom-model.ipynb pour charger notre modèle custom model_predict_bac.pkl ainsi créé et l'exécuter&#10;+ lisibilité dans prediction-notes.ipynb&#10;Conclusion: linearRegression n'est pas du tout adapté à ce que l'on veut faire">
+      <option name="closed" value="true" />
+      <created>1749637398066</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1749637398066</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -405,7 +411,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="explicite" />
     <MESSAGE value="màj relative path following raw data folder" />
     <MESSAGE value="1 seule visualisation par cellule" />
     <MESSAGE value="importer un .csv avec un séparateur en point-virgule et utilisation du param delimiter dans .read_csv()" />
@@ -430,6 +435,7 @@
     <MESSAGE value="exercice de faire le mse (mean square error) à la main" />
     <MESSAGE value="exercice de faire le mse (mean square error) à la main -- explicit" />
     <MESSAGE value="exercice de faire le mse (mean square error) à la main -- explicit2" />
-    <option name="LAST_COMMIT_MESSAGE" value="exercice de faire le mse (mean square error) à la main -- explicit2" />
+    <MESSAGE value="predict-bac.ipynb : exercice d'entrainement d'un modèle linearRegression pour prédire des notes au bac selon les notes de l'année :&#10;— avec jeux de données&#10;— préparation des données avec train_test_split&#10;— entrainement du modèle avec model.predict() &#10;— vérification du mse avec mean_squared_error()&#10;— exporter le modèle en pickle (.pkl) en créant une file contenant le modèle en binaire&#10;— création d'un nouveau notebook use-custom-model.ipynb pour charger notre modèle custom model_predict_bac.pkl ainsi créé et l'exécuter&#10;+ lisibilité dans prediction-notes.ipynb&#10;Conclusion: linearRegression n'est pas du tout adapté à ce que l'on veut faire" />
+    <option name="LAST_COMMIT_MESSAGE" value="predict-bac.ipynb : exercice d'entrainement d'un modèle linearRegression pour prédire des notes au bac selon les notes de l'année :&#10;— avec jeux de données&#10;— préparation des données avec train_test_split&#10;— entrainement du modèle avec model.predict() &#10;— vérification du mse avec mean_squared_error()&#10;— exporter le modèle en pickle (.pkl) en créant une file contenant le modèle en binaire&#10;— création d'un nouveau notebook use-custom-model.ipynb pour charger notre modèle custom model_predict_bac.pkl ainsi créé et l'exécuter&#10;+ lisibilité dans prediction-notes.ipynb&#10;Conclusion: linearRegression n'est pas du tout adapté à ce que l'on veut faire" />
   </component>
 </project>
