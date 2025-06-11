@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d87e7d60-7499-47b5-9d28-e39067733d6d" name="Changes" comment="exercice ex-group-aggre.ipynb sur travail sur df.loc à la main">
-      <change afterPath="$PROJECT_DIR$/analyze_movie/notebook scikit/prediction-notes.ipynb" afterDir="false" />
+    <list default="true" id="d87e7d60-7499-47b5-9d28-e39067733d6d" name="Changes" comment="exercice de faire le mse (mean square error) à la main -- explicit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analyze_movie/notebook scikit/prediction-notes.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/analyze_movie/notebook scikit/prediction-notes.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +87,7 @@
       <option name="presentableId" value="Default" />
       <updated>1749543858472</updated>
       <workItem from="1749547038019" duration="16005000" />
-      <workItem from="1749625769986" duration="4048000" />
+      <workItem from="1749625769986" duration="4530000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -361,7 +361,23 @@
       <option name="project" value="LOCAL" />
       <updated>1749628440804</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="exercice de faire le mse (mean square error) à la main">
+      <option name="closed" value="true" />
+      <created>1749629842095</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1749629842095</updated>
+    </task>
+    <task id="LOCAL-00036" summary="exercice de faire le mse (mean square error) à la main -- explicit">
+      <option name="closed" value="true" />
+      <created>1749629877492</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1749629877492</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -379,8 +395,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="commentaires sur pandas avec .info() et .describe()" />
-    <MESSAGE value="plus explicite" />
     <MESSAGE value="ajouter des années de sortie des films sur le .csv et importer matplotlib pour visualiser les duration et year" />
     <MESSAGE value="explicite" />
     <MESSAGE value="màj relative path following raw data folder" />
@@ -404,6 +418,8 @@
     <MESSAGE value="jour 2" />
     <MESSAGE value="exercice ex-group-aggre.ipynb sur travail sur df.loc" />
     <MESSAGE value="exercice ex-group-aggre.ipynb sur travail sur df.loc à la main" />
-    <option name="LAST_COMMIT_MESSAGE" value="exercice ex-group-aggre.ipynb sur travail sur df.loc à la main" />
+    <MESSAGE value="exercice de faire le mse (mean square error) à la main" />
+    <MESSAGE value="exercice de faire le mse (mean square error) à la main -- explicit" />
+    <option name="LAST_COMMIT_MESSAGE" value="exercice de faire le mse (mean square error) à la main -- explicit" />
   </component>
 </project>
