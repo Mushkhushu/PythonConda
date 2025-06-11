@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d87e7d60-7499-47b5-9d28-e39067733d6d" name="Changes" comment="prediction-notes-avec-forest.ipynb : afficher un graphe d'écart entre les données réelles et les prédictions" />
+    <list default="true" id="d87e7d60-7499-47b5-9d28-e39067733d6d" name="Changes" comment="predict-bac_4_ele_test.ipynb : les datas de plein d'élèves d'Isaac pour afficher un graphe d'écart entre les données réelles et les prédictions cohérent">
+      <change beforePath="$PROJECT_DIR$/analyze_movie/data/raw/titanic.csv" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/data/raw/titanic.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analyze_movie/models/model_predic_bac_4_eleves_forest.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/ecole_notes/models/model_predic_bac_4_eleves_forest.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analyze_movie/models/model_predict_bac.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/ecole_notes/models/model_predict_bac.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analyze_movie/models/model_predict_bac_random_forest.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/ecole_notes/models/model_predict_bac_random_forest.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analyze_movie/notebook scikit/predict-bac.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ecole_notes/notebook/predict-bac.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analyze_movie/notebook scikit/predict-bac_4_ele_test.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ecole_notes/notebook/predict-bac_4_ele_test.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analyze_movie/notebook scikit/prediction-notes-avec-forest.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ecole_notes/notebook/prediction-notes-avec-forest.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analyze_movie/notebook scikit/prediction-notes.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ecole_notes/notebook/prediction-notes.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analyze_movie/notebook scikit/use-custom-model.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ecole_notes/notebook/use-custom-model.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analyze_movie/notebook/titanic.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/notebook/titanic.ipynb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,7 +76,11 @@
       <recent name="D:\PythonIASpace\PythonConda\analyze_movie\notebook" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\PythonIASpace\PythonConda\analyze_movie\data\raw" />
+      <recent name="D:\PythonIASpace\PythonConda\titanic\data\raw" />
+      <recent name="D:\PythonIASpace\PythonConda\titanic\notebook" />
+      <recent name="D:\PythonIASpace\PythonConda\titanic\data" />
+      <recent name="D:\PythonIASpace\PythonConda\ecole_notes\notebook" />
+      <recent name="D:\PythonIASpace\PythonConda\ecole_notes\models" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -84,7 +99,7 @@
       <option name="presentableId" value="Default" />
       <updated>1749543858472</updated>
       <workItem from="1749547038019" duration="16005000" />
-      <workItem from="1749625769986" duration="13700000" />
+      <workItem from="1749625769986" duration="14046000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -406,7 +421,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749644667057</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="predict-bac_4_ele_test.ipynb : les datas de plein d'élèves d'Isaac pour afficher un graphe d'écart entre les données réelles et les prédictions cohérent">
+      <option name="closed" value="true" />
+      <created>1749645023588</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1749645023588</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -424,7 +447,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="importer un .csv avec un séparateur en point-virgule et utilisation du param delimiter dans .read_csv()" />
     <MESSAGE value="importer seaborn, faire le meme graphique scatterplot avec moins de codes" />
     <MESSAGE value="amélioration" />
     <MESSAGE value="faire un pairplot" />
@@ -449,6 +471,7 @@
     <MESSAGE value="predict-bac.ipynb : exercice d'entrainement d'un modèle linearRegression pour prédire des notes au bac selon les notes de l'année :&#10;— avec jeux de données&#10;— préparation des données avec train_test_split&#10;— entrainement du modèle avec model.predict() &#10;— vérification du mse avec mean_squared_error()&#10;— exporter le modèle en pickle (.pkl) en créant une file contenant le modèle en binaire&#10;— création d'un nouveau notebook use-custom-model.ipynb pour charger notre modèle custom model_predict_bac.pkl ainsi créé et l'exécuter&#10;+ lisibilité dans prediction-notes.ipynb&#10;Conclusion: linearRegression n'est pas du tout adapté à ce que l'on veut faire" />
     <MESSAGE value="prediction-notes-avec-forest.ipynb : exercice d'entrainement d'un modèle RandomForestRegression pour prédire des notes au bac selon les notes de l'année :&#10;— avec jeux de données&#10;— préparation des données avec train_test_split&#10;— entrainement du modèle avec model.predict() &#10;— vérification du mse avec mean_squared_error()&#10;— exporter le modèle en pickle (.pkl) en créant une file contenant le modèle en binaire&#10;— création d'un nouveau notebook use-custom-model.ipynb pour charger notre modèle custom model_predict_bac_random_forest.pkl ainsi créé et l'exécuter&#10;&#10;Conclusion: RandomForestRegression trouve les bonnes notes donc est beaucoup plus adapté mais le mse n'est pas cohérent car dataset trop pauvre, pas assez d'élèves et de notes" />
     <MESSAGE value="prediction-notes-avec-forest.ipynb : afficher un graphe d'écart entre les données réelles et les prédictions" />
-    <option name="LAST_COMMIT_MESSAGE" value="prediction-notes-avec-forest.ipynb : afficher un graphe d'écart entre les données réelles et les prédictions" />
+    <MESSAGE value="predict-bac_4_ele_test.ipynb : les datas de plein d'élèves d'Isaac pour afficher un graphe d'écart entre les données réelles et les prédictions cohérent" />
+    <option name="LAST_COMMIT_MESSAGE" value="predict-bac_4_ele_test.ipynb : les datas de plein d'élèves d'Isaac pour afficher un graphe d'écart entre les données réelles et les prédictions cohérent" />
   </component>
 </project>
