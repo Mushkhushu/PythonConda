@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d87e7d60-7499-47b5-9d28-e39067733d6d" name="Changes" comment="exemple de nettoyage de données avec exemple-nettoyage.ipynb sur les notes:&#10;- typage incohérent (tout passer en numérique / viser une colonne à passr en numérique)&#10;- donnée manquante (mettre en numérique pour avoir NaN plutot que 'vide', utiliser .fillna pour remplacer par '0', ou par toute autre valeur, avec ou sans condition)&#10;-  renommer une colonne avec .rename&#10;- .dropna() pour supprimer les lignes nulles">
-      <change afterPath="$PROJECT_DIR$/titanic/data/raw/Titanic3.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/titanic/data/raw/titanic2.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/titanic/notebook/01-exploration.ipynb" afterDir="false" />
+    <list default="true" id="d87e7d60-7499-47b5-9d28-e39067733d6d" name="Changes" comment="TP titanic">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/titanic/notebook/01-exploration.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/notebook/01-exploration.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/titanic/notebook/M04_TP01_Exercice.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/notebook/M04_TP01_Exercice.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,8 +70,8 @@
       <recent name="D:\PythonIASpace\PythonConda\analyze_movie\notebook" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\PythonIASpace\PythonConda\titanic\data\raw" />
       <recent name="D:\PythonIASpace\PythonConda\titanic\notebook" />
+      <recent name="D:\PythonIASpace\PythonConda\titanic\data\raw" />
       <recent name="D:\PythonIASpace\PythonConda\analyze_movie" />
       <recent name="D:\PythonIASpace\PythonConda\titanic\data" />
       <recent name="D:\PythonIASpace\PythonConda\ecole_notes\notebook" />
@@ -99,7 +97,7 @@
       <workItem from="1749651754340" duration="452000" />
       <workItem from="1749652214894" duration="1256000" />
       <workItem from="1749711897277" duration="8929000" />
-      <workItem from="1749722998443" duration="4600000" />
+      <workItem from="1749722998443" duration="5502000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -469,7 +467,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749717260844</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="TP titanic">
+      <option name="closed" value="true" />
+      <created>1749729196993</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1749729196993</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -487,7 +493,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="faire une heatmap avec les datas imdb" />
     <MESSAGE value="faire une heatmap avec les datas imdb, uniquement avec les valeurs numériques, et il le fait tout seul" />
     <MESSAGE value="prendre un dataset issue de seaborn directement pour faire des tests" />
     <MESSAGE value="faire un histplot des penguins de seaborn" />
@@ -512,6 +517,7 @@
     <MESSAGE value="préparer le taf pour le TP titanic: nouvelles données et notebook avec les énoncés" />
     <MESSAGE value="ajout du M04TP01 titanic" />
     <MESSAGE value="exemple de nettoyage de données avec exemple-nettoyage.ipynb sur les notes:&#10;- typage incohérent (tout passer en numérique / viser une colonne à passr en numérique)&#10;- donnée manquante (mettre en numérique pour avoir NaN plutot que 'vide', utiliser .fillna pour remplacer par '0', ou par toute autre valeur, avec ou sans condition)&#10;-  renommer une colonne avec .rename&#10;- .dropna() pour supprimer les lignes nulles" />
-    <option name="LAST_COMMIT_MESSAGE" value="exemple de nettoyage de données avec exemple-nettoyage.ipynb sur les notes:&#10;- typage incohérent (tout passer en numérique / viser une colonne à passr en numérique)&#10;- donnée manquante (mettre en numérique pour avoir NaN plutot que 'vide', utiliser .fillna pour remplacer par '0', ou par toute autre valeur, avec ou sans condition)&#10;-  renommer une colonne avec .rename&#10;- .dropna() pour supprimer les lignes nulles" />
+    <MESSAGE value="TP titanic" />
+    <option name="LAST_COMMIT_MESSAGE" value="TP titanic" />
   </component>
 </project>
