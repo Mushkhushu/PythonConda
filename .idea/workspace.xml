@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d87e7d60-7499-47b5-9d28-e39067733d6d" name="Changes" comment="TP titanic - début correction">
+    <list default="true" id="d87e7d60-7499-47b5-9d28-e39067733d6d" name="Changes" comment="TP titanic - énoncé M05TP01">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/titanic/data/titanic.clean.csv" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/data/processed/titanic.clean.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/titanic/notebook/01-exploration.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/notebook/01-exploration.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/titanic/notebook/M05_TP01_Exercice.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/notebook/M05_TP01_Exercice.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,11 +71,11 @@
       <recent name="D:\PythonIASpace\PythonConda\analyze_movie\notebook" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\PythonIASpace\PythonConda\titanic\data\processed" />
       <recent name="D:\PythonIASpace\PythonConda\titanic\notebook" />
       <recent name="D:\PythonIASpace\PythonConda\titanic\data\raw" />
       <recent name="D:\PythonIASpace\PythonConda\analyze_movie" />
       <recent name="D:\PythonIASpace\PythonConda\titanic\data" />
-      <recent name="D:\PythonIASpace\PythonConda\ecole_notes\notebook" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -95,7 +98,7 @@
       <workItem from="1749651754340" duration="452000" />
       <workItem from="1749652214894" duration="1256000" />
       <workItem from="1749711897277" duration="8929000" />
-      <workItem from="1749722998443" duration="9912000" />
+      <workItem from="1749722998443" duration="11883000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -481,7 +484,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749732800598</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="TP titanic - énoncé M05TP01">
+      <option name="closed" value="true" />
+      <created>1749737604108</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1749737604108</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -499,7 +510,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="prendre un dataset issue de seaborn directement pour faire des tests" />
     <MESSAGE value="faire un histplot des penguins de seaborn" />
     <MESSAGE value="import titanic data .csv et new jupyter note to visualize a heatmap" />
     <MESSAGE value="import movie_genre_stats.csv et new jupyter note to visualize a heatmap" />
@@ -524,6 +534,7 @@
     <MESSAGE value="exemple de nettoyage de données avec exemple-nettoyage.ipynb sur les notes:&#10;- typage incohérent (tout passer en numérique / viser une colonne à passr en numérique)&#10;- donnée manquante (mettre en numérique pour avoir NaN plutot que 'vide', utiliser .fillna pour remplacer par '0', ou par toute autre valeur, avec ou sans condition)&#10;-  renommer une colonne avec .rename&#10;- .dropna() pour supprimer les lignes nulles" />
     <MESSAGE value="TP titanic" />
     <MESSAGE value="TP titanic - début correction" />
-    <option name="LAST_COMMIT_MESSAGE" value="TP titanic - début correction" />
+    <MESSAGE value="TP titanic - énoncé M05TP01" />
+    <option name="LAST_COMMIT_MESSAGE" value="TP titanic - énoncé M05TP01" />
   </component>
 </project>
