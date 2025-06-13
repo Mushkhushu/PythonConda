@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d87e7d60-7499-47b5-9d28-e39067733d6d" name="Changes" comment="demo sur decisiontreeclasssifier, plot_tree pour voir les noeuds de décision, mse et accuracy" />
+    <list default="true" id="d87e7d60-7499-47b5-9d28-e39067733d6d" name="Changes" comment="Hotel Reservation -- prépa">
+      <change beforePath="$PROJECT_DIR$/Hotel_Reservation/Enoncé projet/IA et Python - TP Final.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel_Reservation/Enoncé projet/IA et Python - TP Final.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hotel_Reservation/Notebooks/01_first.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel_Reservation/Notebooks/01_first.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analyze_movie/notebook/04-predict.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/analyze_movie/notebook/04-predict.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/titanic/notebook/01-exploration.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/notebook/01-exploration.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/titanic/notebook/02-training-data.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/notebook/02-training-data.ipynb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,11 +72,11 @@
       <recent name="D:\PythonIASpace\PythonConda\analyze_movie\notebook" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\PythonIASpace\PythonConda\other_demo" />
-      <recent name="D:\PythonIASpace\PythonConda\titanic\data\processed" />
+      <recent name="D:\PythonIASpace\PythonConda\Hotel_Reservation\Data\Test" />
+      <recent name="D:\PythonIASpace\PythonConda\Hotel_Reservation\Enoncé projet" />
+      <recent name="D:\PythonIASpace\PythonConda\Hotel_Reservation" />
+      <recent name="D:\PythonIASpace\PythonConda\Hotel_Reservation\Data\Raw" />
       <recent name="D:\PythonIASpace\PythonConda\titanic\notebook" />
-      <recent name="D:\PythonIASpace\PythonConda\titanic\data\raw" />
-      <recent name="D:\PythonIASpace\PythonConda\analyze_movie" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -94,55 +100,7 @@
       <workItem from="1749652214894" duration="1256000" />
       <workItem from="1749711897277" duration="8929000" />
       <workItem from="1749722998443" duration="12221000" />
-      <workItem from="1749798340520" duration="2510000" />
-    </task>
-    <task id="LOCAL-00003" summary="import numpy to manipulate tables">
-      <option name="closed" value="true" />
-      <created>1749547869852</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1749547869852</updated>
-    </task>
-    <task id="LOCAL-00004" summary="add a 2D array with numpy">
-      <option name="closed" value="true" />
-      <created>1749548389302</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1749548389302</updated>
-    </task>
-    <task id="LOCAL-00005" summary="récupérer les données des colonnes et des lignes">
-      <option name="closed" value="true" />
-      <created>1749548745265</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1749548745265</updated>
-    </task>
-    <task id="LOCAL-00006" summary="récupérer la durée la plus longue d'un array 2D avec data mixte PENSESR AU .astype(int) sinon il ne saura pas faire">
-      <option name="closed" value="true" />
-      <created>1749550336365</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1749550336365</updated>
-    </task>
-    <task id="LOCAL-00007" summary="récupérer la durée la plus longue d'un array 2D avec data mixte PENSER AU .astype(int) sinon il ne saura pas faire, il faut des int64 que numpy utilise">
-      <option name="closed" value="true" />
-      <created>1749550723177</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1749550723177</updated>
-    </task>
-    <task id="LOCAL-00008" summary="lisibilité explicite">
-      <option name="closed" value="true" />
-      <created>1749550974240</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1749550974240</updated>
+      <workItem from="1749798340520" duration="9258000" />
     </task>
     <task id="LOCAL-00009" summary="importer pandas et importer un.csv de films">
       <option name="closed" value="true" />
@@ -488,7 +446,55 @@
       <option name="project" value="LOCAL" />
       <updated>1749800712305</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="correction M05TP01 titanic classifier dans 02-training-data.ipynb">
+      <option name="closed" value="true" />
+      <created>1749809189433</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1749809189433</updated>
+    </task>
+    <task id="LOCAL-00053" summary="correction M05TP01 titanic classifier dans 02-training-data.ipynb">
+      <option name="closed" value="true" />
+      <created>1749809703739</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1749809703739</updated>
+    </task>
+    <task id="LOCAL-00054" summary="correction M05TP01 titanic SOLUTION avec M05_TP01_Solution.ipynb">
+      <option name="closed" value="true" />
+      <created>1749810227105</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1749810227105</updated>
+    </task>
+    <task id="LOCAL-00055" summary="Hotel Reservation -- projet">
+      <option name="closed" value="true" />
+      <created>1749815612395</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1749815612395</updated>
+    </task>
+    <task id="LOCAL-00056" summary="Hotel Reservation -- Enoncé">
+      <option name="closed" value="true" />
+      <created>1749815694371</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1749815694371</updated>
+    </task>
+    <task id="LOCAL-00057" summary="Hotel Reservation -- prépa">
+      <option name="closed" value="true" />
+      <created>1749815784346</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1749815784346</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -506,11 +512,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="import movie_genre_stats.csv et new jupyter note to visualize a heatmap" />
-    <MESSAGE value="movie_genre_stats.csv and .head()" />
-    <MESSAGE value="titanic.csv and .head() and histplot" />
-    <MESSAGE value="movie_genre_stats.csv et compter combien de films sortis par genre de films (unique) ? TD&#10;avec loc de pandas pour regrouper des colums selon une condition&#10;afficher avec un sns.barplot aggrandi avec figsize" />
-    <MESSAGE value="movie_genre_stats.csv et compter combien de places vendues par genre de films" />
     <MESSAGE value="jour 2" />
     <MESSAGE value="exercice ex-group-aggre.ipynb sur travail sur df.loc" />
     <MESSAGE value="exercice ex-group-aggre.ipynb sur travail sur df.loc à la main" />
@@ -531,6 +532,11 @@
     <MESSAGE value="TP titanic - énoncé M05TP01" />
     <MESSAGE value="TP titanic - début du taf M05TP01" />
     <MESSAGE value="demo sur decisiontreeclasssifier, plot_tree pour voir les noeuds de décision, mse et accuracy" />
-    <option name="LAST_COMMIT_MESSAGE" value="demo sur decisiontreeclasssifier, plot_tree pour voir les noeuds de décision, mse et accuracy" />
+    <MESSAGE value="correction M05TP01 titanic classifier dans 02-training-data.ipynb" />
+    <MESSAGE value="correction M05TP01 titanic SOLUTION avec M05_TP01_Solution.ipynb" />
+    <MESSAGE value="Hotel Reservation -- projet" />
+    <MESSAGE value="Hotel Reservation -- Enoncé" />
+    <MESSAGE value="Hotel Reservation -- prépa" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hotel Reservation -- prépa" />
   </component>
 </project>
