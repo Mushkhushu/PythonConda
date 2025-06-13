@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d87e7d60-7499-47b5-9d28-e39067733d6d" name="Changes" comment="Hotel Reservation -- first prediction">
-      <change afterPath="$PROJECT_DIR$/Hotel_Reservation/src/graph_utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hotel_Reservation/Notebooks/01_first.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel_Reservation/Notebooks/01_first.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analyze_movie/notebook/04-predict.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/analyze_movie/notebook/04-predict.ipynb" afterDir="false" />
+    <list default="true" id="d87e7d60-7499-47b5-9d28-e39067733d6d" name="Changes" comment="Hotel Reservation -- first prediction + productions">
+      <change afterPath="$PROJECT_DIR$/Hotel_Reservation/Notebooks/02-ssecond.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,15 +98,7 @@
       <workItem from="1749711897277" duration="8929000" />
       <workItem from="1749722998443" duration="12221000" />
       <workItem from="1749798340520" duration="9258000" />
-      <workItem from="1749818955196" duration="2117000" />
-    </task>
-    <task id="LOCAL-00010" summary="commentaires sur pandas avec .info() et .describe()">
-      <option name="closed" value="true" />
-      <created>1749557476814</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1749557476815</updated>
+      <workItem from="1749818955196" duration="3269000" />
     </task>
     <task id="LOCAL-00011" summary="plus explicite">
       <option name="closed" value="true" />
@@ -495,7 +484,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749819352482</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="Hotel Reservation -- first prediction + productions">
+      <option name="closed" value="true" />
+      <created>1749823109727</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1749823109727</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -513,7 +510,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="exercice ex-group-aggre.ipynb sur travail sur df.loc" />
     <MESSAGE value="exercice ex-group-aggre.ipynb sur travail sur df.loc à la main" />
     <MESSAGE value="exercice de faire le mse (mean square error) à la main" />
     <MESSAGE value="exercice de faire le mse (mean square error) à la main -- explicit" />
@@ -538,6 +534,7 @@
     <MESSAGE value="Hotel Reservation -- Enoncé" />
     <MESSAGE value="Hotel Reservation -- prépa" />
     <MESSAGE value="Hotel Reservation -- first prediction" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hotel Reservation -- first prediction" />
+    <MESSAGE value="Hotel Reservation -- first prediction + productions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hotel Reservation -- first prediction + productions" />
   </component>
 </project>
