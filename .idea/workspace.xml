@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d87e7d60-7499-47b5-9d28-e39067733d6d" name="Changes" comment="TP titanic - énoncé M05TP01">
+    <list default="true" id="d87e7d60-7499-47b5-9d28-e39067733d6d" name="Changes" comment="TP titanic - début du taf M05TP01">
+      <change afterPath="$PROJECT_DIR$/other_demo/demo-classifier.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/titanic/data/titanic.clean.csv" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/data/processed/titanic.clean.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/titanic/notebook/01-exploration.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/notebook/01-exploration.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/titanic/notebook/M05_TP01_Exercice.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/notebook/M05_TP01_Exercice.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,11 +69,11 @@
       <recent name="D:\PythonIASpace\PythonConda\analyze_movie\notebook" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\PythonIASpace\PythonConda\other_demo" />
       <recent name="D:\PythonIASpace\PythonConda\titanic\data\processed" />
       <recent name="D:\PythonIASpace\PythonConda\titanic\notebook" />
       <recent name="D:\PythonIASpace\PythonConda\titanic\data\raw" />
       <recent name="D:\PythonIASpace\PythonConda\analyze_movie" />
-      <recent name="D:\PythonIASpace\PythonConda\titanic\data" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -98,15 +96,8 @@
       <workItem from="1749651754340" duration="452000" />
       <workItem from="1749652214894" duration="1256000" />
       <workItem from="1749711897277" duration="8929000" />
-      <workItem from="1749722998443" duration="11883000" />
-    </task>
-    <task id="LOCAL-00001" summary="first commit">
-      <option name="closed" value="true" />
-      <created>1749546548865</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1749546548865</updated>
+      <workItem from="1749722998443" duration="12221000" />
+      <workItem from="1749798340520" duration="2175000" />
     </task>
     <task id="LOCAL-00002" summary="first jupyter notebook">
       <option name="closed" value="true" />
@@ -492,7 +483,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749737604108</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="TP titanic - début du taf M05TP01">
+      <option name="closed" value="true" />
+      <created>1749739932590</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1749739932591</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -510,7 +509,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="faire un histplot des penguins de seaborn" />
     <MESSAGE value="import titanic data .csv et new jupyter note to visualize a heatmap" />
     <MESSAGE value="import movie_genre_stats.csv et new jupyter note to visualize a heatmap" />
     <MESSAGE value="movie_genre_stats.csv and .head()" />
@@ -535,6 +533,7 @@
     <MESSAGE value="TP titanic" />
     <MESSAGE value="TP titanic - début correction" />
     <MESSAGE value="TP titanic - énoncé M05TP01" />
-    <option name="LAST_COMMIT_MESSAGE" value="TP titanic - énoncé M05TP01" />
+    <MESSAGE value="TP titanic - début du taf M05TP01" />
+    <option name="LAST_COMMIT_MESSAGE" value="TP titanic - début du taf M05TP01" />
   </component>
 </project>
