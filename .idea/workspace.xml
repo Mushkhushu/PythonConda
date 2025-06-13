@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d87e7d60-7499-47b5-9d28-e39067733d6d" name="Changes" comment="Hotel Reservation -- prépa">
-      <change beforePath="$PROJECT_DIR$/Hotel_Reservation/Enoncé projet/IA et Python - TP Final.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel_Reservation/Enoncé projet/IA et Python - TP Final.ipynb" afterDir="false" />
+    <list default="true" id="d87e7d60-7499-47b5-9d28-e39067733d6d" name="Changes" comment="Hotel Reservation -- first prediction">
+      <change afterPath="$PROJECT_DIR$/Hotel_Reservation/src/graph_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hotel_Reservation/Notebooks/01_first.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel_Reservation/Notebooks/01_first.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/analyze_movie/notebook/04-predict.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/analyze_movie/notebook/04-predict.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/titanic/notebook/01-exploration.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/notebook/01-exploration.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/titanic/notebook/02-training-data.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/notebook/02-training-data.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,25 +49,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/PythonIASpace/PythonConda/analyze_movie/notebook&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/PythonIASpace/PythonConda/Hotel_Reservation/src",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "settings.sync",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\PythonIASpace\PythonConda\Hotel_Reservation\src" />
       <recent name="D:\PythonIASpace\PythonConda\analyze_movie\notebook" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -101,14 +101,7 @@
       <workItem from="1749711897277" duration="8929000" />
       <workItem from="1749722998443" duration="12221000" />
       <workItem from="1749798340520" duration="9258000" />
-    </task>
-    <task id="LOCAL-00009" summary="importer pandas et importer un.csv de films">
-      <option name="closed" value="true" />
-      <created>1749557259538</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1749557259538</updated>
+      <workItem from="1749818955196" duration="2117000" />
     </task>
     <task id="LOCAL-00010" summary="commentaires sur pandas avec .info() et .describe()">
       <option name="closed" value="true" />
@@ -494,7 +487,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749815784346</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="Hotel Reservation -- first prediction">
+      <option name="closed" value="true" />
+      <created>1749819352482</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1749819352482</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -512,7 +513,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="jour 2" />
     <MESSAGE value="exercice ex-group-aggre.ipynb sur travail sur df.loc" />
     <MESSAGE value="exercice ex-group-aggre.ipynb sur travail sur df.loc à la main" />
     <MESSAGE value="exercice de faire le mse (mean square error) à la main" />
@@ -537,6 +537,7 @@
     <MESSAGE value="Hotel Reservation -- projet" />
     <MESSAGE value="Hotel Reservation -- Enoncé" />
     <MESSAGE value="Hotel Reservation -- prépa" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hotel Reservation -- prépa" />
+    <MESSAGE value="Hotel Reservation -- first prediction" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hotel Reservation -- first prediction" />
   </component>
 </project>
