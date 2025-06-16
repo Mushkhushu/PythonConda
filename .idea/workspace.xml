@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d87e7d60-7499-47b5-9d28-e39067733d6d" name="Changes" comment="Hotel Reservation -- tentative sur 04">
-      <change afterPath="$PROJECT_DIR$/Hotel_Reservation/Notebooks clean/entrainement_decisionTree.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hotel_Reservation/Notebooks clean/entrainement_randomForest.ipynb" afterDir="false" />
+    <list default="true" id="d87e7d60-7499-47b5-9d28-e39067733d6d" name="Changes" comment="Hotel Reservation -- comparaison des deux modeles randomForest et DecisionTreeClassifier">
+      <change afterPath="$PROJECT_DIR$/Hotel_Reservation/Notebooks/05-fifth.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hotel_Reservation/Notebooks/04-fourth.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel_Reservation/Notebooks/04-fourth.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hotel_Reservation/Notebooks/rfr_predict_error.png" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel_Reservation/Notebooks/rfr_predict_error.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hotel_Reservation/Notebooks clean/entrainement_decisionTree.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel_Reservation/Notebooks clean/entrainement_decisionTree.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hotel_Reservation/Notebooks clean/entrainement_randomForest.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel_Reservation/Notebooks clean/entrainement_randomForest.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,15 +105,7 @@
       <workItem from="1749722998443" duration="12221000" />
       <workItem from="1749798340520" duration="9258000" />
       <workItem from="1749818955196" duration="3909000" />
-      <workItem from="1750061643584" duration="6418000" />
-    </task>
-    <task id="LOCAL-00015" summary="1 seule visualisation par cellule">
-      <option name="closed" value="true" />
-      <created>1749559447648</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1749559447648</updated>
+      <workItem from="1750061643584" duration="8153000" />
     </task>
     <task id="LOCAL-00016" summary="importer un .csv avec un séparateur en point-virgule et utilisation du param delimiter dans .read_csv()">
       <option name="closed" value="true" />
@@ -500,7 +491,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750064669207</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="Hotel Reservation -- comparaison des deux modeles randomForest et DecisionTreeClassifier">
+      <option name="closed" value="true" />
+      <created>1750069314963</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1750069314963</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -518,7 +517,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="exercice de faire le mse (mean square error) à la main -- explicit2" />
     <MESSAGE value="predict-bac.ipynb : exercice d'entrainement d'un modèle linearRegression pour prédire des notes au bac selon les notes de l'année :&#10;— avec jeux de données&#10;— préparation des données avec train_test_split&#10;— entrainement du modèle avec model.predict() &#10;— vérification du mse avec mean_squared_error()&#10;— exporter le modèle en pickle (.pkl) en créant une file contenant le modèle en binaire&#10;— création d'un nouveau notebook use-custom-model.ipynb pour charger notre modèle custom model_predict_bac.pkl ainsi créé et l'exécuter&#10;+ lisibilité dans prediction-notes.ipynb&#10;Conclusion: linearRegression n'est pas du tout adapté à ce que l'on veut faire" />
     <MESSAGE value="prediction-notes-avec-forest.ipynb : exercice d'entrainement d'un modèle RandomForestRegression pour prédire des notes au bac selon les notes de l'année :&#10;— avec jeux de données&#10;— préparation des données avec train_test_split&#10;— entrainement du modèle avec model.predict() &#10;— vérification du mse avec mean_squared_error()&#10;— exporter le modèle en pickle (.pkl) en créant une file contenant le modèle en binaire&#10;— création d'un nouveau notebook use-custom-model.ipynb pour charger notre modèle custom model_predict_bac_random_forest.pkl ainsi créé et l'exécuter&#10;&#10;Conclusion: RandomForestRegression trouve les bonnes notes donc est beaucoup plus adapté mais le mse n'est pas cohérent car dataset trop pauvre, pas assez d'élèves et de notes" />
     <MESSAGE value="prediction-notes-avec-forest.ipynb : afficher un graphe d'écart entre les données réelles et les prédictions" />
@@ -543,6 +541,7 @@
     <MESSAGE value="Hotel Reservation -- produire un hotel_clean.csv" />
     <MESSAGE value="Hotel Reservation -- supprimer un dummy" />
     <MESSAGE value="Hotel Reservation -- tentative sur 04" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hotel Reservation -- tentative sur 04" />
+    <MESSAGE value="Hotel Reservation -- comparaison des deux modeles randomForest et DecisionTreeClassifier" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hotel Reservation -- comparaison des deux modeles randomForest et DecisionTreeClassifier" />
   </component>
 </project>
