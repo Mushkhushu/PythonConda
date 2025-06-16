@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d87e7d60-7499-47b5-9d28-e39067733d6d" name="Changes" comment="Hotel Reservation -- comparaison des deux modeles randomForest et DecisionTreeClassifier">
-      <change afterPath="$PROJECT_DIR$/Hotel_Reservation/Notebooks/05-fifth.ipynb" afterDir="false" />
+    <list default="true" id="d87e7d60-7499-47b5-9d28-e39067733d6d" name="Changes" comment="Hotel Reservation -- comparaison des deux modeles randomForest et DecisionTreeClassifier sur un nouveau jeu de données cleané (avg price per nights en retirer ceux à 0)">
+      <change afterPath="$PROJECT_DIR$/Hotel_Reservation/Notebooks clean/decisionTree.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hotel_Reservation/Notebooks/06-sixth clean mix colonnes and focus.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hotel_Reservation/Notebooks clean/entrainement_decisionTree.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel_Reservation/Notebooks clean/entrainement_decisionTree.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hotel_Reservation/Notebooks clean/entrainement_randomForest.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel_Reservation/Notebooks clean/entrainement_randomForest.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hotel_Reservation/Notebooks/01_first.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel_Reservation/Notebooks/01_first.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hotel_Reservation/Notebooks/05-fifth.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel_Reservation/Notebooks/05-fifth.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hotel_Reservation/src/graph_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel_Reservation/src/graph_utils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +62,7 @@
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "database.data.extractors.current.export.id": "Comma-separated (CSV)_id",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/PythonIASpace/PythonConda/Hotel_Reservation/Notebooks",
+    "last_opened_file_path": "D:/pythonSpace/PythonConda/Hotel_Reservation/Notebooks clean",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -70,6 +74,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\pythonSpace\PythonConda\Hotel_Reservation\Notebooks clean" />
       <recent name="D:\PythonIASpace\PythonConda\Hotel_Reservation\Notebooks" />
       <recent name="D:\PythonIASpace\PythonConda\Hotel_Reservation\src" />
       <recent name="D:\PythonIASpace\PythonConda\analyze_movie\notebook" />
@@ -105,15 +110,7 @@
       <workItem from="1749722998443" duration="12221000" />
       <workItem from="1749798340520" duration="9258000" />
       <workItem from="1749818955196" duration="3909000" />
-      <workItem from="1750061643584" duration="8153000" />
-    </task>
-    <task id="LOCAL-00016" summary="importer un .csv avec un séparateur en point-virgule et utilisation du param delimiter dans .read_csv()">
-      <option name="closed" value="true" />
-      <created>1749559635991</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1749559635991</updated>
+      <workItem from="1750061643584" duration="18673000" />
     </task>
     <task id="LOCAL-00017" summary="importer seaborn, faire le meme graphique scatterplot avec moins de codes">
       <option name="closed" value="true" />
@@ -499,7 +496,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750069314963</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="Hotel Reservation -- comparaison des deux modeles randomForest et DecisionTreeClassifier sur un nouveau jeu de données cleané (avg price per nights en retirer ceux à 0)">
+      <option name="closed" value="true" />
+      <created>1750074147227</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1750074147227</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -517,7 +522,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="predict-bac.ipynb : exercice d'entrainement d'un modèle linearRegression pour prédire des notes au bac selon les notes de l'année :&#10;— avec jeux de données&#10;— préparation des données avec train_test_split&#10;— entrainement du modèle avec model.predict() &#10;— vérification du mse avec mean_squared_error()&#10;— exporter le modèle en pickle (.pkl) en créant une file contenant le modèle en binaire&#10;— création d'un nouveau notebook use-custom-model.ipynb pour charger notre modèle custom model_predict_bac.pkl ainsi créé et l'exécuter&#10;+ lisibilité dans prediction-notes.ipynb&#10;Conclusion: linearRegression n'est pas du tout adapté à ce que l'on veut faire" />
     <MESSAGE value="prediction-notes-avec-forest.ipynb : exercice d'entrainement d'un modèle RandomForestRegression pour prédire des notes au bac selon les notes de l'année :&#10;— avec jeux de données&#10;— préparation des données avec train_test_split&#10;— entrainement du modèle avec model.predict() &#10;— vérification du mse avec mean_squared_error()&#10;— exporter le modèle en pickle (.pkl) en créant une file contenant le modèle en binaire&#10;— création d'un nouveau notebook use-custom-model.ipynb pour charger notre modèle custom model_predict_bac_random_forest.pkl ainsi créé et l'exécuter&#10;&#10;Conclusion: RandomForestRegression trouve les bonnes notes donc est beaucoup plus adapté mais le mse n'est pas cohérent car dataset trop pauvre, pas assez d'élèves et de notes" />
     <MESSAGE value="prediction-notes-avec-forest.ipynb : afficher un graphe d'écart entre les données réelles et les prédictions" />
     <MESSAGE value="predict-bac_4_ele_test.ipynb : les datas de plein d'élèves d'Isaac pour afficher un graphe d'écart entre les données réelles et les prédictions cohérent" />
@@ -542,6 +546,7 @@
     <MESSAGE value="Hotel Reservation -- supprimer un dummy" />
     <MESSAGE value="Hotel Reservation -- tentative sur 04" />
     <MESSAGE value="Hotel Reservation -- comparaison des deux modeles randomForest et DecisionTreeClassifier" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hotel Reservation -- comparaison des deux modeles randomForest et DecisionTreeClassifier" />
+    <MESSAGE value="Hotel Reservation -- comparaison des deux modeles randomForest et DecisionTreeClassifier sur un nouveau jeu de données cleané (avg price per nights en retirer ceux à 0)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hotel Reservation -- comparaison des deux modeles randomForest et DecisionTreeClassifier sur un nouveau jeu de données cleané (avg price per nights en retirer ceux à 0)" />
   </component>
 </project>
