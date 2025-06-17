@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d87e7d60-7499-47b5-9d28-e39067733d6d" name="Changes" comment="Hotel Reservation -- comparaison des deux modeles randomForest et DecisionTreeClassifier sur un nouveau jeu de données cleané (avg price per nights en retirer ceux à 0)">
-      <change afterPath="$PROJECT_DIR$/Hotel_Reservation/Notebooks clean/decisionTree.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hotel_Reservation/Notebooks/06-sixth clean mix colonnes and focus.ipynb" afterDir="false" />
+    <list default="true" id="d87e7d60-7499-47b5-9d28-e39067733d6d" name="Changes" comment="Hotel Reservation -- optimisation du ramdomforest">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hotel_Reservation/Notebooks clean/entrainement_decisionTree.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel_Reservation/Notebooks clean/entrainement_decisionTree.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hotel_Reservation/Notebooks clean/entrainement_randomForest.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel_Reservation/Notebooks clean/entrainement_randomForest.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hotel_Reservation/Notebooks/01_first.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel_Reservation/Notebooks/01_first.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hotel_Reservation/Notebooks/05-fifth.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel_Reservation/Notebooks/05-fifth.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hotel_Reservation/src/graph_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel_Reservation/src/graph_utils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,12 +30,12 @@
     &quot;assignee&quot;: &quot;Mushkhushu&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Mushkhushu/PythonConda.git",
-    "accountId": "cc58d30b-e1ab-429b-8833-5750384a7034"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Mushkhushu/PythonConda.git&quot;,
+    &quot;accountId&quot;: &quot;cc58d30b-e1ab-429b-8833-5750384a7034&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -53,25 +47,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "database.data.extractors.current.export.id": "Comma-separated (CSV)_id",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/pythonSpace/PythonConda/Hotel_Reservation/Notebooks clean",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "settings.sync",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;database.data.extractors.current.export.id&quot;: &quot;Comma-separated (CSV)_id&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/pythonSpace/PythonConda/Hotel_Reservation/Notebooks clean&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\pythonSpace\PythonConda\Hotel_Reservation\Notebooks clean" />
@@ -110,15 +104,8 @@
       <workItem from="1749722998443" duration="12221000" />
       <workItem from="1749798340520" duration="9258000" />
       <workItem from="1749818955196" duration="3909000" />
-      <workItem from="1750061643584" duration="18673000" />
-    </task>
-    <task id="LOCAL-00017" summary="importer seaborn, faire le meme graphique scatterplot avec moins de codes">
-      <option name="closed" value="true" />
-      <created>1749559959681</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1749559959681</updated>
+      <workItem from="1750061643584" duration="18741000" />
+      <workItem from="1750145563837" duration="777000" />
     </task>
     <task id="LOCAL-00018" summary="amélioration">
       <option name="closed" value="true" />
@@ -504,7 +491,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750074147227</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="Hotel Reservation -- optimisation du ramdomforest">
+      <option name="closed" value="true" />
+      <created>1750085869384</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1750085869384</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -522,7 +517,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="prediction-notes-avec-forest.ipynb : exercice d'entrainement d'un modèle RandomForestRegression pour prédire des notes au bac selon les notes de l'année :&#10;— avec jeux de données&#10;— préparation des données avec train_test_split&#10;— entrainement du modèle avec model.predict() &#10;— vérification du mse avec mean_squared_error()&#10;— exporter le modèle en pickle (.pkl) en créant une file contenant le modèle en binaire&#10;— création d'un nouveau notebook use-custom-model.ipynb pour charger notre modèle custom model_predict_bac_random_forest.pkl ainsi créé et l'exécuter&#10;&#10;Conclusion: RandomForestRegression trouve les bonnes notes donc est beaucoup plus adapté mais le mse n'est pas cohérent car dataset trop pauvre, pas assez d'élèves et de notes" />
     <MESSAGE value="prediction-notes-avec-forest.ipynb : afficher un graphe d'écart entre les données réelles et les prédictions" />
     <MESSAGE value="predict-bac_4_ele_test.ipynb : les datas de plein d'élèves d'Isaac pour afficher un graphe d'écart entre les données réelles et les prédictions cohérent" />
     <MESSAGE value="rangement en sous dossiers selon les projets" />
@@ -547,6 +541,7 @@
     <MESSAGE value="Hotel Reservation -- tentative sur 04" />
     <MESSAGE value="Hotel Reservation -- comparaison des deux modeles randomForest et DecisionTreeClassifier" />
     <MESSAGE value="Hotel Reservation -- comparaison des deux modeles randomForest et DecisionTreeClassifier sur un nouveau jeu de données cleané (avg price per nights en retirer ceux à 0)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hotel Reservation -- comparaison des deux modeles randomForest et DecisionTreeClassifier sur un nouveau jeu de données cleané (avg price per nights en retirer ceux à 0)" />
+    <MESSAGE value="Hotel Reservation -- optimisation du ramdomforest" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hotel Reservation -- optimisation du ramdomforest" />
   </component>
 </project>
