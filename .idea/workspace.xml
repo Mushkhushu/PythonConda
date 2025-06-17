@@ -4,9 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d87e7d60-7499-47b5-9d28-e39067733d6d" name="Changes" comment="Hotel Reservation -- optimisation du ramdomforest">
+    <list default="true" id="d87e7d60-7499-47b5-9d28-e39067733d6d" name="Changes" comment="Hotel Reservation -- export model et tout dans un notebook clean complete.ipynb">
+      <change afterPath="$PROJECT_DIR$/Hotel_Reservation/Notebooks clean/model_training.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hotel_Reservation/Notebooks clean/pipeline.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hotel_Reservation/Notebooks clean/predict.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hotel_Reservation/Notebooks clean/preprocessing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hotel_Reservation/Notebooks clean/train_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hotel_Reservation/Notebooks clean/use model.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hotel_Reservation/exportations/taf.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hotel_Reservation/Notebooks clean/entrainement_randomForest.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel_Reservation/Notebooks clean/entrainement_randomForest.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hotel_Reservation/Models/Hotel_Cancellations_Model_RandomForest.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel_Reservation/Models/Hotel_Cancellations_Model_RandomForest.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hotel_Reservation/Notebooks clean/entrainement_decisionTree.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel_Reservation/Notebooks clean/entrainement_decisionTree.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="Jupyter Notebook" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -105,23 +113,7 @@
       <workItem from="1749798340520" duration="9258000" />
       <workItem from="1749818955196" duration="3909000" />
       <workItem from="1750061643584" duration="18741000" />
-      <workItem from="1750145563837" duration="777000" />
-    </task>
-    <task id="LOCAL-00018" summary="amélioration">
-      <option name="closed" value="true" />
-      <created>1749560137159</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1749560137159</updated>
-    </task>
-    <task id="LOCAL-00019" summary="faire un pairplot">
-      <option name="closed" value="true" />
-      <created>1749560209812</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1749560209812</updated>
+      <workItem from="1750145563837" duration="8249000" />
     </task>
     <task id="LOCAL-00020" summary="faire un barplot">
       <option name="closed" value="true" />
@@ -499,7 +491,23 @@
       <option name="project" value="LOCAL" />
       <updated>1750085869384</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="Hotel Reservation -- export model et tout dans un notebook clean complete.ipynb">
+      <option name="closed" value="true" />
+      <created>1750148941308</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1750148941324</updated>
+    </task>
+    <task id="LOCAL-00068" summary="Hotel Reservation -- export model et tout dans un notebook clean complete.ipynb">
+      <option name="closed" value="true" />
+      <created>1750148969017</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1750148969017</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -517,7 +525,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="prediction-notes-avec-forest.ipynb : afficher un graphe d'écart entre les données réelles et les prédictions" />
     <MESSAGE value="predict-bac_4_ele_test.ipynb : les datas de plein d'élèves d'Isaac pour afficher un graphe d'écart entre les données réelles et les prédictions cohérent" />
     <MESSAGE value="rangement en sous dossiers selon les projets" />
     <MESSAGE value="- reprendre les infos imdb&#10;- se baser sur les genres de films et les tickets vendus pour savoir si ça va etre un succès&#10;- Modifier les colonnnes textuels en index pour pouvoir les utiliser (avec OneHotEncoder, ColumnTransformer et Pipeline)&#10;- faire une methode de visualization display_predict_diff_errors() dans un file graph_utils.py à part dans un dossier src&#10;- l'importer dans notre notebook&#10;- enregistrer l'image graph produite&#10;- afficher le mse" />
@@ -542,6 +549,7 @@
     <MESSAGE value="Hotel Reservation -- comparaison des deux modeles randomForest et DecisionTreeClassifier" />
     <MESSAGE value="Hotel Reservation -- comparaison des deux modeles randomForest et DecisionTreeClassifier sur un nouveau jeu de données cleané (avg price per nights en retirer ceux à 0)" />
     <MESSAGE value="Hotel Reservation -- optimisation du ramdomforest" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hotel Reservation -- optimisation du ramdomforest" />
+    <MESSAGE value="Hotel Reservation -- export model et tout dans un notebook clean complete.ipynb" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hotel Reservation -- export model et tout dans un notebook clean complete.ipynb" />
   </component>
 </project>
