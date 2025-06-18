@@ -4,17 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d87e7d60-7499-47b5-9d28-e39067733d6d" name="Changes" comment="Hotel Reservation -- export model et tout dans un notebook clean complete.ipynb">
-      <change afterPath="$PROJECT_DIR$/Hotel_Reservation/Notebooks clean/model_training.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hotel_Reservation/Notebooks clean/pipeline.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hotel_Reservation/Notebooks clean/predict.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hotel_Reservation/Notebooks clean/preprocessing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hotel_Reservation/Notebooks clean/train_model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hotel_Reservation/Notebooks clean/use model.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hotel_Reservation/exportations/taf.py" afterDir="false" />
+    <list default="true" id="d87e7d60-7499-47b5-9d28-e39067733d6d" name="Changes" comment="Hotel Reservation -- retaf avec pipelne de transformation des données et .pkl du model+pipeline dans Hotel_Complete_Pipeline">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hotel_Reservation/Models/Hotel_Cancellations_Model_RandomForest.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel_Reservation/Models/Hotel_Cancellations_Model_RandomForest.pkl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hotel_Reservation/Notebooks clean/entrainement_decisionTree.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel_Reservation/Notebooks clean/entrainement_decisionTree.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hotel_Reservation/Models/Hotel_Complete_Pipeline.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel_Reservation/Models/Hotel_Complete_Pipeline.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hotel_Reservation/Notebooks clean/pipeline.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel_Reservation/Notebooks clean/pipeline.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hotel_Reservation/Notebooks clean/rfr_predict_errorDecisionTree.png" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel_Reservation/Notebooks clean/rfr_predict_errorDecisionTree.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,15 +107,8 @@
       <workItem from="1749798340520" duration="9258000" />
       <workItem from="1749818955196" duration="3909000" />
       <workItem from="1750061643584" duration="18741000" />
-      <workItem from="1750145563837" duration="8249000" />
-    </task>
-    <task id="LOCAL-00020" summary="faire un barplot">
-      <option name="closed" value="true" />
-      <created>1749560372995</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1749560372995</updated>
+      <workItem from="1750145563837" duration="10576000" />
+      <workItem from="1750231808332" duration="994000" />
     </task>
     <task id="LOCAL-00021" summary="importer un .csv de IMDB">
       <option name="closed" value="true" />
@@ -507,7 +494,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750148969017</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="Hotel Reservation -- retaf avec pipelne de transformation des données et .pkl du model+pipeline dans Hotel_Complete_Pipeline">
+      <option name="closed" value="true" />
+      <created>1750155320676</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1750155320676</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -525,7 +520,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="predict-bac_4_ele_test.ipynb : les datas de plein d'élèves d'Isaac pour afficher un graphe d'écart entre les données réelles et les prédictions cohérent" />
     <MESSAGE value="rangement en sous dossiers selon les projets" />
     <MESSAGE value="- reprendre les infos imdb&#10;- se baser sur les genres de films et les tickets vendus pour savoir si ça va etre un succès&#10;- Modifier les colonnnes textuels en index pour pouvoir les utiliser (avec OneHotEncoder, ColumnTransformer et Pipeline)&#10;- faire une methode de visualization display_predict_diff_errors() dans un file graph_utils.py à part dans un dossier src&#10;- l'importer dans notre notebook&#10;- enregistrer l'image graph produite&#10;- afficher le mse" />
     <MESSAGE value="préparer le taf pour le TP titanic: nouvelles données et notebook avec les énoncés" />
@@ -550,6 +544,7 @@
     <MESSAGE value="Hotel Reservation -- comparaison des deux modeles randomForest et DecisionTreeClassifier sur un nouveau jeu de données cleané (avg price per nights en retirer ceux à 0)" />
     <MESSAGE value="Hotel Reservation -- optimisation du ramdomforest" />
     <MESSAGE value="Hotel Reservation -- export model et tout dans un notebook clean complete.ipynb" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hotel Reservation -- export model et tout dans un notebook clean complete.ipynb" />
+    <MESSAGE value="Hotel Reservation -- retaf avec pipelne de transformation des données et .pkl du model+pipeline dans Hotel_Complete_Pipeline" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hotel Reservation -- retaf avec pipelne de transformation des données et .pkl du model+pipeline dans Hotel_Complete_Pipeline" />
   </component>
 </project>
